@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "metro-card"
+version = "0.1.0"
+description = "Python 3.9 solution for GeekTrust's Metro Card problem."
+authors = ["Pratheesh Prakash <pratheeshraniprakash@gmail.com>"]
+maintainers = ["Pratheesh Prakash <pratheeshraniprakash@gmail.com>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+packages = [{ include = "metro_card" }]
+keywords = ["geektrust", "metro-card", "programming challenge", "coding challenge", "challenge"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
